@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="121px" viewBox="0 0 121 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>编组 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="49" height="62" rx="4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="49" height="62" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="49" height="62" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-5" x="-4" y="5" width="57" height="70" rx="6"></rect>
+    </defs>
+    <g id="足篮球资料库" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="篮球空页面" transform="translate(-126.000000, -310.000000)">
+            <g id="分组-4复制" transform="translate(126.000000, 310.000000)">
+                <g id="编组-4">
+                    <g id="编组-3">
+                        <circle id="Oval-11" fill="#EFF0F5" cx="60.5" cy="60.5" r="60.5"></circle>
+                        <line x1="84" y1="60" x2="109" y2="60" id="Path-12" stroke="#A4A5BD" stroke-dasharray="1,1"></line>
+                        <line x1="13" y1="44" x2="38" y2="44" id="Path-12" stroke="#A4A5BD" stroke-dasharray="1,1"></line>
+                        <line x1="87" y1="53" x2="97" y2="53" id="Path-12" stroke="#A4A5BD" stroke-dasharray="1,1"></line>
+                        <ellipse id="Oval-14" fill="#E8E9F2" cx="60" cy="104.5" rx="25" ry="3.5"></ellipse>
+                        <text id="+" font-family=".PingFangSC-Regular, .PingFang SC" font-size="12" font-weight="normal" fill="#D3D5E3">
+                            <tspan x="92" y="33">+</tspan>
+                        </text>
+                        <circle id="Oval-15" stroke="#D3D5E3" cx="8" cy="54" r="2"></circle>
+                        <circle id="Oval-15" stroke="#D3D5E3" cx="109.5" cy="74.5" r="1.5"></circle>
+                    </g>
+                    <g id="分组-3" transform="translate(36.000000, 21.000000)">
+                        <g id="分组-2" transform="translate(0.000000, 0.998047)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask-Copy" stroke="#A4A5BD" mask="url(#mask-2)" stroke-width="2" fill="#FADED2" stroke-dasharray="4,2">
+                                <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+                            </g>
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <rect stroke="#A4A5BD" x="-3.5" y="5.5" width="56" height="69" rx="6"></rect>
+                            <g id="分组" mask="url(#mask-6)" fill="#A4A5BD">
+                                <g transform="translate(7.000000, 40.000000)" id="Rectangle-2">
+                                    <rect x="0" y="0" width="34" height="1"></rect>
+                                    <rect x="0" y="14" width="34" height="1"></rect>
+                                    <rect x="0" y="7" width="20" height="1"></rect>
+                                </g>
+                            </g>
+                            <circle id="椭圆形" stroke="#A4A5BD" mask="url(#mask-6)" cx="14" cy="25" r="6.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

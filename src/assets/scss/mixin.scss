@@ -1,0 +1,74 @@
+$PFR: "PingFangSC-Regular", sans-serif;
+$PFM: "PingFangSC-Medium", sans-serif;
+$PFB: "PingFangSC-Bold", sans-serif;
+
+@mixin bg-image ($url) {
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@mixin gradient-x($color-one, $color-two) {
+  background: -webkit-gradient(Linear, top left, top right, from($color-one), to($color-two));
+  background: -moz-linear-gradient(to right, $color-one, $color-two);
+  background: linear-gradient(to right, $color-one, $color-two);
+}
+
+@mixin gradient-y($color-one, $color-two) {
+  background: -webkit-gradient(Linear, left top, left bottom, from($color-one), to($color-two));
+  background: -moz-linear-gradient(to bottom, $color-one, $color-two);
+  background: linear-gradient(to bottom, $color-one, $color-two);
+}
+
+// $color 背景色
+// $pos 位置 top or bottom
+@mixin one-px-x($color, $pos) {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  height: 1px;
+  #{$pos}: 0;
+  background-color: $color;
+  -webkit-transform: scaleY(0.5) translateZ(0);
+  -moz-transform: scaleY(0.5) translateZ(0);
+  transform: scaleY(0.5) translateZ(0);
+}
+
+// $color 背景色
+// $pos 位置 left or right
+@mixin one-px-y($color, $pos) {
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  #{$pos}: 0;
+  background-color: $color;
+  -webkit-transform: scaleX(0.5) translateZ(0);
+  -moz-transform: scaleX(0.5) translateZ(0);
+  transform: scaleX(0.5) translateZ(0);
+}
+
+// $color 边框颜色
+// $radius 圆角，默认为0，如果有圆角部位不需要，则在@include之后，进行属性覆盖
+@mixin border-one-px($color, $radius: 0) {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  border: 1px solid $color;
+  -webkit-border-radius: $radius * 2;
+  border-radius: $radius * 2;
+  -webkit-transform: scale(0.5) translateZ(0);
+  -moz-transform: scale(0.5) translateZ(0);
+  transform: scale(0.5) translateZ(0);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

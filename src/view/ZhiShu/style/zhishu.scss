@@ -1,0 +1,169 @@
+@import '../../../assets/scss/mixin.scss';
+.i-arrow-top {
+  @include bg-image('./images/icon-arrow-top.png');
+}
+.i-arrow-down {
+  @include bg-image('./images/icon-arrow-down.png');
+}
+.trend {
+  display: inline-block;
+  width: 0.1rem;
+  height: 0.26rem;
+  vertical-align: middle;
+  margin-left: 0.06rem;
+  margin-right: -0.16rem;
+}
+.p-ZS {
+  .item {
+    background-color: #fff;
+  }
+  .row {
+    font-size: .24rem;
+    color: #333;
+    padding: 0.4rem 0;
+    line-height: 1.2;
+  }
+  .col {
+    display: inline-block;
+  }
+  .c-title {
+    margin-left: 0.32rem;
+    max-width: 1.2rem;
+  }
+  .c-1 {
+    margin-left: 2rem;
+    color: #888;
+  }
+  .c-num {
+    width: 1.04rem;
+    text-align: center;
+    &.z-grn {
+      color: #73B05D;
+    }
+    &.z-red {
+      color: #F96154;
+    }
+  }
+  .c-5 {
+    color: #888;
+    margin-left: 0.215rem;
+  }
+}
+.p-ZSXQ {
+  display: flex;
+  .m-comp {
+    width: 1.6rem;
+    height: 100vh;
+    background-color: #EEF1F3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    header {
+      height: 0.9rem;
+      font-size: .24rem;
+      color: #999;
+      line-height: 0.9rem;
+    }
+    .comp-list {
+      flex: auto;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      li {
+        font-size: .24rem;
+        color: #333;
+        line-height: 0.7rem;
+        height: 0.7rem;
+        &.z-fcs {
+          font-family: PingFangSC-Medium, sans-serif;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .m-odds {
+    flex: auto;
+    height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: column;
+    .odds-list {
+      flex: 1;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      .grid-row {
+        &:nth-child(odd)  {
+          background-color: #FBFDFF;
+        }
+      }
+    }
+  }
+  .z-grn {
+    color: #73B05D;
+  }
+  .z-red {
+    color: #F96154;
+  }
+  .grid-row {
+    height: 0.7rem;
+    font-size: .24rem;
+    color: #333;
+    line-height: 0.7rem;
+    display: flex;
+    &.z-title {
+      color: #999;
+      height: 0.9rem;
+      line-height: 0.9rem;
+
+      position: relative;
+      box-sizing: border-box;
+      &:after {
+        @include one-px-x(#ddd, bottom);
+      }
+    }
+    span, div {
+      display: block;
+      width: 1.3rem;
+      text-align: center;
+      &:last-child {
+        flex: auto;
+      }
+    }
+    .c-time {
+      color: #888;
+    }
+  }
+  .odd-change {
+    height: 0.7rem;
+    padding: 0.15rem 0;
+    line-height: 0.7rem;
+    div {
+      span {
+        display: block;
+      }
+      &.hasChange {
+        span {
+          display: block;
+          width: 100%;
+          line-height: 0.35rem;
+        }
+      }
+      .trend {
+        margin: 0 0.04rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .p-ZS {
+    .c-1 {
+      margin-left: 1.7rem;
+    }
+    .c-num {
+      width: 1.08rem;
+    }
+    .c-5 {
+      margin-left: 0.03rem;
+    }
+  }
+}

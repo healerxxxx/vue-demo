@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="7px" viewBox="0 0 7 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="1" y="1" width="5" height="5" rx="1"></rect>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect stroke="#fff" x="0.5" y="0.5" width="6" height="6" fill="#FF2222" rx="1"></rect>
+        <polygon fill="#FF4D4D" mask="url(#mask-2)" points="5.23784294 0.513836939 0.954545455 4.85187073 0.954545455 0.318181818"></polygon>
+    </g>
+</svg>

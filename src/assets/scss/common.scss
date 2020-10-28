@@ -1,0 +1,29 @@
+@import './mixin';
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  font-family: $PFR;
+  font-size: .24rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+@font-face {
+  font-family: 'alternategothicno2bt';
+  src: url('https://static.ws.126.net/f2e/products/relottery/relotteryMobile/trunk/reflowpages/css/alternategothicno2bt.ttf');
+}
+@keyframes circle-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="6px" viewBox="0 0 7 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Triangle" fill="#FFFFFF">
+            <path d="M4.3335332,0.845406077 L6.46501611,4.04263044 C6.77136857,4.50215913 6.6471947,5.12302847 6.18766601,5.42938093 C6.0233985,5.53889261 5.8303908,5.59733064 5.63296582,5.59733064 L1.37,5.59733064 C0.81771525,5.59733064 0.37,5.14961539 0.37,4.59733064 C0.37,4.39990565 0.428438027,4.20689796 0.537949706,4.04263044 L2.66943261,0.845406077 C2.97578507,0.385877389 3.59665442,0.26170352 4.0561831,0.568055979 C4.16603539,0.641290837 4.26029834,0.73555379 4.3335332,0.845406077 Z" transform="translate(3.501536, 2.998665) scale(1, -1) translate(-3.501536, -2.998665) "></path>
+        </g>
+    </g>
+</svg>
