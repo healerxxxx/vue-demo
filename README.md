@@ -49,8 +49,3 @@ npm run dev
 # 构建
 npm run build
 
-# 上传CDN
-
-npm run upload
-
-```
